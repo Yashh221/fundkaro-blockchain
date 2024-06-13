@@ -161,7 +161,6 @@ export default function CampaignSingle({
         <meta name="description" content="Create a Withdrawal Request" />
         <link rel="icon" href="/logo.svg" />
       </Head>
-      {isSubmitted ? <Confetti width={width} height={height} /> : null}
       <main>
         {" "}
         <Box position={"relative"}>
@@ -207,13 +206,6 @@ export default function CampaignSingle({
               >
                 {description}
               </Text>
-              <Link
-                color="teal.500"
-                href={`https://rinkeby.etherscan.io/address/${id}`}
-                isExternal
-              >
-                View on Rinkeby Etherscan <ExternalLinkIcon mx="2px" />
-              </Link>
               <Box mx={"auto"} w={"full"}>
                 <SimpleGrid columns={{ base: 1 }} spacing={{ base: 5 }}>
                   <StatsCard

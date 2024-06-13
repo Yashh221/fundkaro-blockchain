@@ -82,9 +82,7 @@ export default function Footer() {
         <Stack direction={"row"} spacing={6}>
           <NextLink href="/">Home</NextLink>
           <Link
-            href={
-              "https://github.com/harsh242/FundKaro-crowdfunding-in-blockchain"
-            }
+            href={"https://github.com/Yashh221/fundkaro-blockchain"}
             isExternal
           >
             Github
@@ -110,22 +108,25 @@ export default function Footer() {
           align={{ base: "center", md: "center" }}
         >
           <Stack direction={"row"} spacing={6}>
-            <SocialButton label={"Website"} href={"https://harshbadhai.me/"}>
+            <SocialButton
+              label={"Website"}
+              href={"https://yshvrdhn.vercel.app/"}
+            >
               {" "}
               <FaGlobe />
             </SocialButton>
             <SocialButton
               label={"Twitter"}
-              href={"https://twitter.com/harshbadhai28"}
+              // href={"https://twitter.com/harshbadhai28"}
             >
               <FaTwitter />
             </SocialButton>
-            <SocialButton label={"Github"} href={"https://github.com/harsh242"}>
+            <SocialButton label={"Github"} href={"https://github.com/Yashh221"}>
               <FaGithub />
             </SocialButton>
             <SocialButton
               label={"Instagram"}
-              href={"https://www.instagram.com/frames_by._harsh/"}
+              // href={"https://www.instagram.com/frames_by._harsh/"}
             >
               <FaInstagram />
             </SocialButton>
